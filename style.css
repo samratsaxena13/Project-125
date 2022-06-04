@@ -1,0 +1,47 @@
+body {
+    background: url("background.jpg");
+    color: black;
+    font-family: 'Montserrat';
+}
+
+#headingLbl {
+    color: white;
+    background-color: gray;
+    padding: 10px;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+code {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Montserrat';
+}
+
+.copyrightFooter {
+    position: fixed;
+    color: white;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    line-height: 1;
+    bottom: 0;
+}
+
+#cameraCanvas {
+    position: absolute;
+    left: 325;
+    top: 150;
+    background-color: white;
+    box-shadow: 5px 5px 5px grey;
+    border: 2px black double;
+    border-radius: 20px;
+}
+
+canvas {
+    background-color: white;
+    box-shadow: 5px 5px 5px grey;
+    border: 2px black double;
+    border-radius: 20px;
+}
